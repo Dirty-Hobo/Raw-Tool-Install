@@ -62,7 +62,7 @@ if [ -z "$lsb_dist" ] && [ -r /etc/redhat-release ]; then
 	lsb_dist='Redhat'
 fi
 if [ -z "$lsb_dist" ] && [ -r /etc/debian_version ]; then
-	lsb_dist='Debian'
+	lsb_dist='jessie/sid'
 fi
 case "$lsb_dist" in
 	Debian)
