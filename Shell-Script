@@ -50,7 +50,7 @@ fi
 
 		(
 			set -x
-			$sh_c 'sleep 3; apt-get -y update'
+			#$sh_c 'sleep 3; apt-get -y update'
 			$sh_c 'sleep 3; apt-get -y install npm nodejs git libapache2-mod-python libapache2-mod-python-doc apache2'
 			$sh_c 'npm install bower -g'
 			$sh_c 'sleep 3; ln -s /usr/bin/nodej /usr/bin/node'
