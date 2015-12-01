@@ -9,7 +9,7 @@ set -e
 #   'wget -qO- https://<url>.domain.com/ | sh'
 #
 
-url=''
+url='https://raw.githubusercontent.com/Dirty-Hobo/Raw-Tool-Install/master/'
 
 
 command_exists() {
