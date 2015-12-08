@@ -54,7 +54,7 @@ fi
 			$sh_c 'sleep 3; apt-get -y install npm nodejs git libapache2-mod-python libapache2-mod-python-doc apache2'
 			$sh_c 'npm install bower -g'
 			$sh_c 'sleep 3; ln -s /usr/bin/nodej /usr/bin/node'
-			$sh_c 'cd /var/www/html/; git clone git://github.com/densitydesign/raw.git; cd raw; bower install'
+			$sh_c 'cd /var/www/html/; git clone git:https://github.com/Dirty-Hobo/raw.git.git; cd raw; bower install'
 		)
 	
 
